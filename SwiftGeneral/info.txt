@@ -1,0 +1,68 @@
+Sources/
+├── App/
+│   ├── AppState.swift
+│   ├── MainAppView.swift
+├── Grid/
+│   ├── GridView.swift
+│   ├── GridItem.swift
+│   ├── GridDetailView.swift
+│   ├── GridHelper.swift
+├── WordEditing/
+│   ├── CreateWordView.swift
+│   ├── EditWordSheet.swift
+├── SharedUtils/
+│   ├── Logging.swift
+│   ├── CoreDataHelpers.swift
+│   ├── TextFormat.swift
+
+
+
+- PascalCase Stor første bokstav
+	•	struct
+	•	class
+	•	enum
+	•	actor
+	•	protocol
+
+
+✅ Det er vanlig og anbefalt å bruke ...View for skjermkomponenter i SwiftUI
+❌ Unngå navn som MainApp, Grid, ThaiWord hvis det faktisk er en visning
+
+🎯 Husk: “Ending with View” er konvensjon, ikke krav – men det hjelper veldig for lesbarhet og gjenkjennelse.
+
+ 
+- CamelCase liten første bokstav...
+✅ 3. Variabler og funksjoner bruker camelCase
+	•	camelCase = liten bokstav først, deretter stor for hvert nytt ord
+	•	Gjelder for:
+	•	Variabler
+	•	Konstanter (let)
+	•	Funksjoner / metoder
+	•	Parameternavn
+
+4. Forkortelser (URL, ID, HTML, osv.) skal også følge camelCase-regelen
+
+
+Ikke openURL(). Men ✅ openUrl()
+
+Så selv om URL og ID er forkortelser, skal du ikke bruke store bokstaver i midten – Swift følger her en lesbarhetsstandard.
+
+🛠️ Ekstra navngivingsråd 
+Situasjon Eksempelnavn Kommentar
+
+Hjelpeklasser
+GridHelper, MapHelper 
+✅ Klart og lesbart
+Enums NoticeKind, WordCategory. 
+
+✅ Ikke bruk Enum i navnet
+Dataobjekter
+ThaiWord, UserProfile
+
+✅ Ikke bruk Data i navnet hvis det ikke er Data-typen
+ViewModel
+WordListViewModel
+
+✅ Standard i MVVM Funksjoner
+loadWords(), saveWord(), deleteEntry()
+

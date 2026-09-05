@@ -1,0 +1,920 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 90;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA7A0F992EF3C1280044FB30 /* gNorskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7A0F982EF3C1280044FB30 /* gNorskApp.swift */; };
+		CA8F0EE42FDD1DF700357C8E /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = CA8F0EE32FDD1D3600357C8E /* AppIcon.icon */; };
+		CAD7B1382E6BF8A00030BA78 /* gNorskTestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = CAD7B1242E6BCE4D0030BA78 /* gNorskTestPlan.xctestplan */; };
+		CAFBB69E3000E39100221F78 /* YouTubeiOSPlayerHelper in Frameworks */ = {isa = PBXBuildFile; productRef = CAFBB69D3000E39100221F78 /* YouTubeiOSPlayerHelper */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAD7B12F2E6BDAEA0030BA78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0440085D2562D5600017A1A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA2E8E462BE4E949007ABE11;
+			remoteInfo = gNorsk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA03F6E02E5E930300001A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3FF6262E6410FE00751B3E /* gNorsk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gNorsk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7A0F982EF3C1280044FB30 /* gNorskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gNorskApp.swift; sourceTree = "<group>"; };
+		CA8F0EE32FDD1D3600357C8E /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
+		CAD7B1242E6BCE4D0030BA78 /* gNorskTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = gNorskTestPlan.xctestplan; sourceTree = "<group>"; };
+		CAD7B12B2E6BDAE90030BA78 /* gNorskUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gNorskUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CA05293C2E5C7D6500F50D53 /* Exceptions for "Migrering" folder in "gNorsk" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ImportAndBackupMenu.swift,
+				InitializeLearningState.swift,
+				Result.swift,
+				translateThaiToEnglish.swift,
+				WordTypeFrequencyFix.swift,
+			);
+			target = CA2E8E462BE4E949007ABE11 /* gNorsk */;
+		};
+		CA4B5A5C2E5E84A300FF2704 /* Exceptions for "CoreData" folder in "gNorsk" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"CurrentGroup+CoreDataClass.swift",
+				"CurrentGroup+CoreDataProperties.swift",
+				gNorsk.xcdatamodeld,
+				"Group+CoreDataClass.swift",
+				"Group+CoreDataProperties.swift",
+				GThaiReferenceStore.swift,
+				PersistenceController.swift,
+				"SearchHistoryEntry+CoreDataClass.swift",
+				"SearchHistoryEntry+CoreDataProperties.swift",
+				"SearchHistoryEntry+Helpers.swift",
+				"ThaiWords+CoreDataClass.swift",
+				"ThaiWords+CoreDataProperties.swift",
+				"ThaiWords+Image.swift",
+				"ThaiWords+NLP.swift",
+				"WordList+CoreDataClass.swift",
+				"WordList+CoreDataProperties.swift",
+			);
+			target = CA2E8E462BE4E949007ABE11 /* gNorsk */;
+		};
+		CA4B5A5F2E5E857D00FF2704 /* Exceptions for "SwiftGeneral" folder in "gNorsk" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				APIKeys/APIConfig.swift,
+				AppleTranslationService.swift,
+				Assets.xcassets,
+				GLFunctions.swift,
+				GPhotoIntegration.swift,
+				Logger.swift,
+			);
+			target = CA2E8E462BE4E949007ABE11 /* gNorsk */;
+		};
+		CA4B5A812E5E86E000FF2704 /* Exceptions for "SwiftUI" folder in "gNorsk" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				blinkButton.swift,
+				Components/AdaptiveTextEditor.swift,
+				Components/CatalystSheetFrame.swift,
+				Components/ColoredConsonantText.swift,
+				Components/DictEntry.swift,
+				Components/FlowLayout.swift,
+				Components/IconTextButton.swift,
+				Components/InfoFieldView.swift,
+				Components/MainMenuButtonExtended.swift,
+				Components/ModernSearchBar.swift,
+				Components/MyUniformTextFieldModifier.swift,
+				Components/OrstDictionaryView.swift,
+				Components/SafariView.swift,
+				Components/SFButton.swift,
+				Components/SFButtonColor.swift,
+				Components/ThaiSuggestionEditor.swift,
+				Components/ThaiSyllableAnalysisView.swift,
+				Components/ThaiTextField.swift,
+				Components/ToneAnnotatedSentenceView.swift,
+				Components/TTSButtonRow.swift,
+				"Components/UIAlertController+Extensions.swift",
+				Components/WordLoader.swift,
+				Components/xCloseButton.swift,
+				Components/YouTubePlayerWebView.swift,
+				DetailWordView/PrefixSegmenterView.swift,
+				DetailWordView/ThaiCandidateRow.swift,
+				DetailWordView/ThaiPartsToolbar.swift,
+				Exercise/EnhancedExercise.swift,
+				Exercise/Grade.swift,
+				Exercise/LearningState.swift,
+				Managers/DictationHelper.swift,
+				Managers/SpeechManager.swift,
+				Previews/PreviewWrapper.swift,
+				"Previews/SelectGroupSU+Preview.swift",
+				Previews/test3.swift,
+				Previews/test4.swift,
+				Previews/testPreview.swift,
+				Segmentation/AdminToolsView.swift,
+				Segmentation/CloudTTSTest.swift,
+				Segmentation/CoreDataWriteMonitor.swift,
+				Segmentation/HybridSegmentation.swift,
+				Segmentation/HybridSegmentationView.swift,
+				Segmentation/Notifier.swift,
+				Segmentation/NotifierOverlay.swift,
+				Segmentation/SegmentationDebugLogger.swift,
+				Segmentation/ThaiWordsCleanup.swift,
+				Sentences/AddSentenceView.swift,
+				Sentences/SentenceInputViewModel.swift,
+				Sentences/SentenceListView.swift,
+				"Sentences/Sentences+helpers.swift",
+				Sentences/SentencesListEnumTag.swift,
+				Sentences/ThaiSentenceInputView.swift,
+				Views/ActiveLearningView.swift,
+				Views/ChunkProgressManager.swift,
+				Views/CustomWordListsView.swift,
+				Views/Detailview/BackfillImageIfNeeded.swift,
+				Views/Detailview/DetailHeaderView.swift,
+				Views/Detailview/SuggestionsView.swift,
+				Views/Detailview/ThaiPronunciationView.swift,
+				Views/Detailview/WordDetailAnalyser/WordDetailAnalyzer.swift,
+				Views/ExerciseLauncherView.swift,
+				Views/ExercisesViews/ExercisesSingleViewx..swift,
+				Views/ExercisesViews/ExercisesView.swift,
+				Views/ExercisesViews/ExercisesView3.swift,
+				Views/ExerciseView.swift,
+				Views/MarkdownEditorWrapper.swift,
+				Views/MarkDownVC.swift,
+				Views/RecentlyEditedView.swift,
+				Views/ReviewDueView.swift,
+				Views/StatView.swift,
+				Views/VideoSyncedTranscriptView.swift,
+				Views/VoiceDictationView.swift,
+				Views/WiktionaryFrequencyReportView.swift,
+			);
+			target = CA2E8E462BE4E949007ABE11 /* gNorsk */;
+		};
+		CA4B5B2C2E5E89B500FF2704 /* Exceptions for "StoryBoards" folder in "gNorsk" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: LaunchScreen.storyboard",
+				"Classes 2/SearchResultView.swift",
+				"Classes 2/ThaiGridItemMock.swift",
+				"Classes 2/ThaiGridViewMock.swift",
+				Classes/DivClasses.swift,
+				Classes/languageClass.swift,
+				"Classes/UIViewController+Instantiate.swift",
+				Photo/ImageAnnotationViewController.swift,
+				Photo/Photo.storyboard,
+				Photo/PhotoVC.swift,
+				Wrappers/ImageAnnotationWrapper.swift,
+				Wrappers/PhotoPickerWrapper.swift,
+				Wrappers/PhotoWrapper.swift,
+			);
+			target = CA2E8E462BE4E949007ABE11 /* gNorsk */;
+		};
+		CA4B5B532E5E8AFF00FF2704 /* Exceptions for "Resources" folder in "gNorsk" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Charis-Bold.ttf",
+				"Charis-BoldItalic.ttf",
+				"Charis-Italic.ttf",
+				"Charis-Medium.ttf",
+				"Charis-MediumItalic.ttf",
+				"Charis-Regular.ttf",
+				"Charis-SemiBold.ttf",
+				"Charis-SemiBoldItalic.ttf",
+				thai_syllable_golden_complete.json,
+				thai_syllable_golden.json,
+				thai_syllable_goldenxxxx.json,
+			);
+			target = CA2E8E462BE4E949007ABE11 /* gNorsk */;
+		};
+		CA6499582E67A80300CBF0E9 /* Exceptions for "MainViews" folder in "gNorsk" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AboutView.swift,
+				CreateWordView.swift,
+				DetailWordView.swift,
+				GridItem.swift,
+				GridView.swift,
+				MainAppView.swift,
+				"PressedValueView 2.swift",
+				PressedValueView.swift,
+				QuickThaiSyllableTestsView.swift,
+				SelectGroup.swift,
+				TranslationView.swift,
+			);
+			target = CA2E8E462BE4E949007ABE11 /* gNorsk */;
+		};
+		CA8AFAF02E6909A30051BE05 /* Exceptions for "Div" folder in "gNorsk" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppState.swift,
+				CloudKitSyncMonitor.swift,
+				EditGroupUrlView.swift,
+				EditGroupView.swift,
+				FollowWindowOverlay.swift,
+				Json/ImporterThaiTop4000.swift,
+				Json/importThaiWordsFromCSV.swift,
+				Json/thai_english_import.swift,
+				Json/thai_words_for_coredata.csv,
+				Json/ThaiWordJSON.swift,
+				KeyboardAccessoryHosting.swift,
+				LabeledTextEditor.swift,
+				lookupGoogle.swift,
+				NonScrollingTextEditor.swift,
+				NoticeKind.swift,
+				OpenInChromeKnapp.swift,
+				OpenThaiLanguageCom.swift,
+				PublicSync/ExportToPublicView.swift,
+				PublicSync/FrequencyGroupSeeder.swift,
+				PublicSync/ImportFromPublicView.swift,
+				PublicSync/PublicCloudKitService.swift,
+				PublicSync/PublicImportService.swift,
+				"PublicSync/PublicSyncRecord+Helpers.swift",
+				PublicSync/PublicWordsListView.swift,
+				SearchView.swift,
+				SelectableTextView.swift,
+				ThaiIPADebugPanel.swift,
+				ToastView.swift,
+				TranslateText2.swift,
+				WordInput.swift,
+			);
+			target = CA2E8E462BE4E949007ABE11 /* gNorsk */;
+		};
+		CAC0CFD52E5AB69200C4D67C /* Exceptions for "Globale" folder in "gNorsk" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Syllable/SyllableEnglishLookup.swift,
+				"Syllable/ThaiSeg+IPA.swift",
+				"Syllable/ThaiSyllable+Debug.swift",
+				"Syllable/ThaiSyllable+Helpers.swift",
+				"Syllable/ThaiSyllable+IPA.swift",
+			);
+			target = CA2E8E462BE4E949007ABE11 /* gNorsk */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		CA0F20322F4D662D00DA7E9C /* Exceptions for "MainViews" folder in "Compile Sources" phase from "gNorsk" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = CA2E8E432BE4E949007ABE11 /* Sources */;
+			membershipExceptions = (
+				.swift,
+			);
+		};
+		CA6492042E66857100CBF0E9 /* Exceptions for "Globale" folder in "Copy Bundle Resources" phase from "gNorsk" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = CA2E8E452BE4E949007ABE11 /* Resources */;
+			membershipExceptions = (
+				"Syllable/ThaiSeg+IPA.swift",
+			);
+		};
+		CAD7B40B2E6C4FDF0030BA78 /* Exceptions for "SwiftUI" folder in "Copy Bundle Resources" phase from "gNorsk" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = CA2E8E452BE4E949007ABE11 /* Resources */;
+			membershipExceptions = (
+				Components/NLTokenizer.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CA0529362E5C788E00F50D53 /* Migrering */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CA05293C2E5C7D6500F50D53 /* Exceptions for "Migrering" folder in "gNorsk" target */,
+			);
+			path = Migrering;
+			sourceTree = "<group>";
+		};
+		CA4B5A5B2E5E847C00FF2704 /* CoreData */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CA4B5A5C2E5E84A300FF2704 /* Exceptions for "CoreData" folder in "gNorsk" target */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		CA4B5A5E2E5E854A00FF2704 /* SwiftGeneral */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CA4B5A5F2E5E857D00FF2704 /* Exceptions for "SwiftGeneral" folder in "gNorsk" target */,
+			);
+			path = SwiftGeneral;
+			sourceTree = "<group>";
+		};
+		CA4B5A6C2E5E86B000FF2704 /* SwiftUI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CA4B5A812E5E86E000FF2704 /* Exceptions for "SwiftUI" folder in "gNorsk" target */,
+				CAD7B40B2E6C4FDF0030BA78 /* Exceptions for "SwiftUI" folder in "Copy Bundle Resources" phase from "gNorsk" target */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		CA4B5B222E5E899400FF2704 /* StoryBoards */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CA4B5B2C2E5E89B500FF2704 /* Exceptions for "StoryBoards" folder in "gNorsk" target */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		CA4B5B522E5E8ADF00FF2704 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CA4B5B532E5E8AFF00FF2704 /* Exceptions for "Resources" folder in "gNorsk" target */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CA6499572E67A7D600CBF0E9 /* MainViews */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CA6499582E67A80300CBF0E9 /* Exceptions for "MainViews" folder in "gNorsk" target */,
+				CA0F20322F4D662D00DA7E9C /* Exceptions for "MainViews" folder in "Compile Sources" phase from "gNorsk" target */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		CA8AFAE02E6909A30051BE05 /* Div */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CA8AFAF02E6909A30051BE05 /* Exceptions for "Div" folder in "gNorsk" target */,
+			);
+			path = Div;
+			sourceTree = "<group>";
+		};
+		CAC0CFB62E5AB69200C4D67C /* Globale */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CAC0CFD52E5AB69200C4D67C /* Exceptions for "Globale" folder in "gNorsk" target */,
+				CA6492042E66857100CBF0E9 /* Exceptions for "Globale" folder in "Copy Bundle Resources" phase from "gNorsk" target */,
+			);
+			path = Globale;
+			sourceTree = "<group>";
+		};
+		CAD7B12C2E6BDAE90030BA78 /* gNorskUnitTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = gNorskUnitTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA2E8E442BE4E949007ABE11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				CAFBB69E3000E39100221F78 /* YouTubeiOSPlayerHelper in Frameworks */,
+			);
+		};
+		CAD7B1282E6BDAE90030BA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0440085C2562D5600017A1A1 = {
+			isa = PBXGroup;
+			children = (
+				CA8F0EE32FDD1D3600357C8E /* AppIcon.icon */,
+				CA7A0F982EF3C1280044FB30 /* gNorskApp.swift */,
+				CAD7B1242E6BCE4D0030BA78 /* gNorskTestPlan.xctestplan */,
+				CA4B5A5B2E5E847C00FF2704 /* CoreData */,
+				CA4B5A5E2E5E854A00FF2704 /* SwiftGeneral */,
+				CA03F6E02E5E930300001A4E /* Info.plist */,
+				CA8AFAE02E6909A30051BE05 /* Div */,
+				CA6499572E67A7D600CBF0E9 /* MainViews */,
+				CA4B5A6C2E5E86B000FF2704 /* SwiftUI */,
+				CAC0CFB62E5AB69200C4D67C /* Globale */,
+				CA4B5B222E5E899400FF2704 /* StoryBoards */,
+				CA0529362E5C788E00F50D53 /* Migrering */,
+				CA4B5B522E5E8ADF00FF2704 /* Resources */,
+				CA3FF6262E6410FE00751B3E /* gNorsk.app */,
+				CAD7B12B2E6BDAE90030BA78 /* gNorskUnitTests.xctest */,
+				CAD7B12C2E6BDAE90030BA78 /* gNorskUnitTests */,
+				CA6F60A02FDBB3770072DC6F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA6F60A02FDBB3770072DC6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA2E8E462BE4E949007ABE11 /* gNorsk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA2E8E582BE4E94A007ABE11 /* Build configuration list for PBXNativeTarget "gNorsk" */;
+			buildPhases = (
+				CA2E8E432BE4E949007ABE11 /* Sources */,
+				CA2E8E442BE4E949007ABE11 /* Frameworks */,
+				CA2E8E452BE4E949007ABE11 /* Resources */,
+				CA9C22D42F4E445400B4D0E1 /* Copy Catalyst App to Applications */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				CAC0CFB62E5AB69200C4D67C /* Globale */,
+			);
+			name = gNorsk;
+			packageProductDependencies = (
+				CAFBB69D3000E39100221F78 /* YouTubeiOSPlayerHelper */,
+			);
+			productName = gNorsk;
+			productReference = CA3FF6262E6410FE00751B3E /* gNorsk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAD7B12A2E6BDAE90030BA78 /* gNorskUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD7B1312E6BDAEA0030BA78 /* Build configuration list for PBXNativeTarget "gNorskUnitTests" */;
+			buildPhases = (
+				CAD7B1272E6BDAE90030BA78 /* Sources */,
+				CAD7B1282E6BDAE90030BA78 /* Frameworks */,
+				CAD7B1292E6BDAE90030BA78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD7B1302E6BDAEA0030BA78 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CAD7B12C2E6BDAE90030BA78 /* gNorskUnitTests */,
+			);
+			name = gNorskUnitTests;
+			productName = gNorskUnitTests;
+			productReference = CAD7B12B2E6BDAE90030BA78 /* gNorskUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0440085D2562D5600017A1A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					CA2E8E462BE4E949007ABE11 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CAD7B12A2E6BDAE90030BA78 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = CA2E8E462BE4E949007ABE11;
+					};
+				};
+			};
+			buildConfigurationList = 044008602562D5600017A1A1 /* Build configuration list for PBXProject "gNorsk" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0440085C2562D5600017A1A1;
+			packageReferences = (
+				CAFBB69C3000E39100221F78 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */,
+			);
+			preferredProjectObjectVersion = 90;
+			productRefGroup = 0440085C2562D5600017A1A1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA2E8E462BE4E949007ABE11 /* gNorsk */,
+				CAD7B12A2E6BDAE90030BA78 /* gNorskUnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA2E8E452BE4E949007ABE11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				CA8F0EE42FDD1DF700357C8E /* AppIcon.icon in Resources */,
+			);
+		};
+		CAD7B1292E6BDAE90030BA78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				CAD7B1382E6BF8A00030BA78 /* gNorskTestPlan.xctestplan in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA9C22D42F4E445400B4D0E1 /* Copy Catalyst App to Applications */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			name = "Copy Catalyst App to Applications";
+			shellPath = /bin/sh;
+			shellScript = (
+				"# Deaktivert på forespørsel — kopierte tidligere ferdigbygde .app til",
+				"# /Applications, noe som skapte forvirring med hvilken build som faktisk",
+				"# kjørte. gTerminal finner nå riktig build direkte i DerivedData i stedet.",
+				"exit 0",
+			);
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA2E8E432BE4E949007ABE11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				CA7A0F992EF3C1280044FB30 /* gNorskApp.swift in Sources */,
+			);
+		};
+		CAD7B1272E6BDAE90030BA78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAD7B1302E6BDAEA0030BA78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA2E8E462BE4E949007ABE11 /* gNorsk */;
+			targetProxy = CAD7B12F2E6BDAEA0030BA78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0440087A2562D5620017A1A1 /* Debug configuration for PBXProject "gNorsk" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES_NONAGGRESSIVE;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FMT6QLJK76;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0440087B2562D5620017A1A1 /* Release configuration for PBXProject "gNorsk" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES_NONAGGRESSIVE;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FMT6QLJK76;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA2E8E592BE4E94A007ABE11 /* Debug configuration for PBXNativeTarget "gNorsk" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=macosx*]" = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = gNorskDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FMT6QLJK76;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_FILE_ACCESS_DOWNLOADS_FOLDER = readwrite;
+				ENABLE_FILE_ACCESS_MOVIES_FOLDER = readwrite;
+				ENABLE_FILE_ACCESS_MUSIC_FOLDER = readwrite;
+				ENABLE_FILE_ACCESS_PICTURE_FOLDER = readwrite;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = YES;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = YES;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera to take photo!";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "You can use your microphone in this app";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "armv7 \"\"";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = no.1955.gNorsk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		CA2E8E5A2BE4E94A007ABE11 /* Release configuration for PBXNativeTarget "gNorsk" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=macosx*]" = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = gNorsk.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FMT6QLJK76;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_FILE_ACCESS_DOWNLOADS_FOLDER = readwrite;
+				ENABLE_FILE_ACCESS_MOVIES_FOLDER = readwrite;
+				ENABLE_FILE_ACCESS_MUSIC_FOLDER = readwrite;
+				ENABLE_FILE_ACCESS_PICTURE_FOLDER = readwrite;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = YES;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = YES;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera to take photo!";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "You can use your microphone in this app";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "armv7 \"\"";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = no.1955.gNorsk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Release;
+		};
+		CAD7B1322E6BDAEA0030BA78 /* Debug configuration for PBXNativeTarget "gNorskUnitTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FMT6QLJK76;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = no.1955.gNorskUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gNorsk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gNorsk";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		CAD7B1332E6BDAEA0030BA78 /* Release configuration for PBXNativeTarget "gNorskUnitTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = FMT6QLJK76;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = no.1955.gNorskUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gNorsk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gNorsk";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044008602562D5600017A1A1 /* Build configuration list for PBXProject "gNorsk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0440087A2562D5620017A1A1 /* Debug configuration for PBXProject "gNorsk" */,
+				0440087B2562D5620017A1A1 /* Release configuration for PBXProject "gNorsk" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		CA2E8E582BE4E94A007ABE11 /* Build configuration list for PBXNativeTarget "gNorsk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2E8E592BE4E94A007ABE11 /* Debug configuration for PBXNativeTarget "gNorsk" */,
+				CA2E8E5A2BE4E94A007ABE11 /* Release configuration for PBXNativeTarget "gNorsk" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		CAD7B1312E6BDAEA0030BA78 /* Build configuration list for PBXNativeTarget "gNorskUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD7B1322E6BDAEA0030BA78 /* Debug configuration for PBXNativeTarget "gNorskUnitTests" */,
+				CAD7B1332E6BDAEA0030BA78 /* Release configuration for PBXNativeTarget "gNorskUnitTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CAFBB69C3000E39100221F78 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/youtube/youtube-ios-player-helper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CAFBB69D3000E39100221F78 /* YouTubeiOSPlayerHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CAFBB69C3000E39100221F78 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */;
+			productName = YouTubeiOSPlayerHelper;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0440085D2562D5600017A1A1 /* Project object */;
+}

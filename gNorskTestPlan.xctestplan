@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "352E0984-2F6C-46B9-93CE-61411D70EDEC",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:gThai.xcodeproj",
+        "identifier" : "CAD7B12A2E6BDAE90030BA78",
+        "name" : "gThaiUnitTests"
+      }
+    }
+  ],
+  "version" : 1
+}

@@ -1,0 +1,111 @@
+--- a/QuickThaiSyllableTestsView.swift
++++ b/QuickThaiSyllableTestsView.swift
+@@ -63,22 +63,33 @@
+-    var body: some View {
+-        NavigationView {
+-            ScrollView {
+-                VStack(alignment: .leading, spacing: 16) {
++    var body: some View {
++        NavigationStack {
++            GeometryReader { geo in
++                ScrollView {
++                    VStack(alignment: .leading, spacing: 16) {
+                         HStack(spacing: 12) {
+                             Button("Kjør tester") {
+                                 evaluated = tests.map { tc in
+                                     let syls = ThaiSeg.repairPreposedVowelNucleus(
+                                         ThaiSeg.segmentThai(tc.text))
+                                     let got  = syls.map { $0.original }   // bruk eksakt original
+                                     let ok: Bool?
+                                     if let exp = tc.expected {
+                                         ok = (got == exp)
+                                     } else {
+                                         ok = nil
+                                     }
+                                     return Evaluated(test: tc, syls: syls, got: got, ok: ok)
+                                 }
+                                 ran = true
+                             }
+                             .buttonStyle(.borderedProminent)
+ 
+                             if ran {
+                                 Text("OK: \(oks.count)  •  Feil: \(fails.count)  •  Uten fasit: \(noKey.count)")
+                                     .foregroundColor(.secondary)
+                             }
+                         }
+ 
+                         guardSection(title: "OK (\(oks.count))", show: ran && !oks.isEmpty) {
+                             VStack(alignment: .leading, spacing: 6) {
+                                 ForEach(oks) { ev in
+                                     HStack(spacing: 12) {
+                                         Image(systemName: "checkmark.circle.fill").foregroundColor(.green)
+                                         Text(ev.test.text) // ordet
+ 
+                                         Spacer(minLength: 0)
+ 
+                                         // Got syllables
+                                         Text(ev.got.joined(separator: " · "))
+                                             .foregroundColor(.secondary)
+ 
+                                         // Got IPA og Expected IPA
+                                         IPACompareView(syls: ev.syls, expectedIPA: ev.test.ipa)
+                                     }
+                                 }
+                             }
+                             .padding(10)
+                             .background(.thinMaterial, in: RoundedRectangle(cornerRadius: 12))
+                         }
+ 
+                         guardSection(title: "Feil (\(fails.count))", show: ran && !fails.isEmpty) {
+                             VStack(alignment: .leading, spacing: 24) {
+                                 ForEach(fails) { ev in
+                                     TestResultBlock(
+                                         text: ev.test.text,
+                                         syls: ev.syls,
+                                         expected: ev.test.expected
+                                     )
+                                     .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 12))
+                                     .padding(.horizontal, 2)
+                                 }
+                             }
+                         }
+ 
+                         guardSection(title: "Uten fasit (\(noKey.count))", show: ran && !noKey.isEmpty) {
+                             VStack(alignment: .leading, spacing: 6) {
+                                 ForEach(noKey) { ev in
+                                     HStack(spacing: 8) {
+                                         Image(systemName: "questionmark.circle").foregroundColor(.orange)
+                                         Text(ev.test.text)
+                                         Spacer(minLength: 0)
+                                         Text(ev.got.joined(separator: " · "))
+                                             .foregroundColor(.secondary)
+                                     }
+                                 }
+                             }
+                             .padding(10)
+                             .background(.thinMaterial, in: RoundedRectangle(cornerRadius: 12))
+                         }
+ 
+                         if !ran {
+                             Text("Trykk «Kjør tester» for å se rask stavelsetest.")
+                                 .foregroundColor(.secondary)
+                         }
+ 
+-                    Spacer(minLength: 20)
+-                }
+-                .padding()
+-                .navigationTitle("Quick Thai Syllable Tests")
+-            }
+-        }
++                        Spacer(minLength: 0) // fyll nederst når lite innhold
++                    }
++                    .frame(maxWidth: .infinity,
++                           minHeight: geo.size.height,    // fyll alltid hele panelet i høyden
++                           alignment: .topLeading)
++                    .padding()
++                }
++                .background(Color.white)                // hvit bakgrunn over/under innhold
++            }
++            .navigationTitle("Quick Thai Syllable Tests")
++        }
+     }

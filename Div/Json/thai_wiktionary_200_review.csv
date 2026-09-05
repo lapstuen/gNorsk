@@ -1,0 +1,81 @@
+thaiWord,status,frequencyRank
+กด,frekvens >= 600,1416
+ก้าว,frekvens >= 600,798
+กุ้ง,frekvens >= 600,1879
+เก้า,mangler frekvens,
+ไก่,frekvens >= 600,1246
+ขวา,frekvens >= 600,1229
+ขา,frekvens >= 600,722
+ขึ้น,mangler frekvens,
+แข็ง,frekvens >= 600,1327
+แขน,frekvens >= 600,1343
+ไข่,frekvens >= 600,1338
+ไข้,frekvens >= 600,2516
+ควาย,frekvens >= 600,2641
+คอ,frekvens >= 600,1023
+คูณ,frekvens >= 600,2349
+จาน,frekvens >= 600,1484
+เจ็ด,mangler frekvens,
+เจ็บ,frekvens >= 600,1276
+ชั่ว,frekvens >= 600,807
+ช้า,frekvens >= 600,717
+ช้าง,frekvens >= 600,736
+ซ้าย,frekvens >= 600,994
+ดัน,frekvens >= 600,1302
+ดึง,frekvens >= 600,1060
+ดื่ม,frekvens >= 600,1142
+ตื่น,frekvens >= 600,1242
+เท้า,frekvens >= 600,1160
+เท่าไร,frekvens >= 600,1298
+เที่ยว,frekvens >= 600,750
+ไทย,mangler frekvens,
+นั่น,frekvens >= 600,629
+น้า,mangler frekvens,
+เนื้อ,frekvens >= 600,615
+บวก,frekvens >= 600,1273
+ปาก,frekvens >= 600,609
+ปู,frekvens >= 600,1309
+ปู่,mangler frekvens,
+เป็ด,frekvens >= 600,3004
+แปด,mangler frekvens,
+ผลัก,frekvens >= 600,3385
+ผัก,frekvens >= 600,1112
+ฝน,frekvens >= 600,841
+ฟัน,frekvens >= 600,1159
+ฟ้า,frekvens >= 600,646
+ไฟ,frekvens >= 600,643
+ม้า,frekvens >= 600,1192
+แมว,frekvens >= 600,2285
+ย่า,frekvens >= 600,1692
+ยาย,frekvens >= 600,1012
+ยืน,frekvens >= 600,671
+เย็น,frekvens >= 600,667
+ลบ,frekvens >= 600,1293
+ลม,frekvens >= 600,793
+ลอง,frekvens >= 600,672
+ลาก,frekvens >= 600,2163
+ล่าง,frekvens >= 600,632
+วัว,frekvens >= 600,1619
+วิ่ง,frekvens >= 600,727
+ศูนย์,frekvens >= 600,934
+สด,frekvens >= 600,1024
+สอง,mangler frekvens,
+สับ,frekvens >= 600,3212
+สาม,mangler frekvens,
+สิบ,mangler frekvens,
+สี่,mangler frekvens,
+เสือ,frekvens >= 600,1095
+หก,mangler frekvens,
+หนาว,frekvens >= 600,1258
+หนึ่ง,mangler frekvens,
+หมา,frekvens >= 600,1328
+หมู,frekvens >= 600,1487
+หอย,frekvens >= 600,2312
+ห้า,mangler frekvens,
+หาร,frekvens >= 600,3367
+หิว,frekvens >= 600,2388
+หู,frekvens >= 600,1067
+เหนื่อย,frekvens >= 600,1373
+ไหว้,frekvens >= 600,1341
+ออก,finnes ikke i databasen,
+อิ่ม,frekvens >= 600,2107

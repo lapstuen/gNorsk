@@ -1,0 +1,958 @@
+[
+  {
+    "text": "ข้อความ",
+    "syllables": [
+      "ข้อ",
+      "ความ"
+    ],
+    "ipa": "kʰɔ̂ː.kʰwaːm",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "กลางคืน",
+    "syllables": [
+      "กลาง",
+      "คืน"
+    ],
+    "ipa": "klaːŋ.kʰɯːn",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "กัน",
+    "syllables": [
+      "กัน"
+    ],
+    "ipa": "kan",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "การบ้าน",
+    "syllables": [
+      "การ",
+      "บ้าน"
+    ],
+    "ipa": "kaːn.bâːn",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "กิน",
+    "syllables": [
+      "กิน"
+    ],
+    "ipa": "kin",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "กินข้าว",
+    "syllables": [
+      "กิน",
+      "ข้าว"
+    ],
+    "ipa": "kin.kʰâːw",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "กีฬา",
+    "syllables": [
+      "กี",
+      "ฬา"
+    ],
+    "ipa": "kiː.laː",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ขับ",
+    "syllables": [
+      "ขับ"
+    ],
+    "ipa": "kʰàp",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ขายของ",
+    "syllables": [
+      "ขาย",
+      "ของ"
+    ],
+    "ipa": "kʰǎːj.kʰɔ̌ːŋ",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ขึ้นรถ",
+    "syllables": [
+      "ขึ้น",
+      "รถ"
+    ],
+    "ipa": "kʰɯ̂n.rót",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ข้าว",
+    "syllables": [
+      "ข้าว"
+    ],
+    "ipa": "kʰâːw",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "คน",
+    "syllables": [
+      "คน"
+    ],
+    "ipa": "kʰon",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ครอบครัว",
+    "syllables": [
+      "ครอบ",
+      "ครัว"
+    ],
+    "ipa": "kʰrɔ̂ːp.kʰrua",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ครู",
+    "syllables": [
+      "ครู"
+    ],
+    "ipa": "kʰruː",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ความรัก",
+    "syllables": [
+      "ความ",
+      "รัก"
+    ],
+    "ipa": "kʰwaːm.rák",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "คอมพิวเตอร์",
+    "syllables": [
+      "คอม",
+      "พิว",
+      "เตอร์"
+    ],
+    "ipa": "kʰɔm.pʰíu.tɤ̂ː",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "งาน",
+    "syllables": [
+      "งาน"
+    ],
+    "ipa": "ŋaːn",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "จันทร์",
+    "syllables": [
+      "จันทร์"
+    ],
+    "ipa": "t͡ɕan",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ช้าง",
+    "syllables": [
+      "ช้าง"
+    ],
+    "ipa": "t͡ɕʰâːŋ",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ซื้อของ",
+    "syllables": [
+      "ซื้อ",
+      "ของ"
+    ],
+    "ipa": "sɯ́ː.kʰɔ̌ːŋ",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ดื่มน้ำ",
+    "syllables": [
+      "ดื่ม",
+      "น้ำ"
+    ],
+    "ipa": "dɯ̀ːm.náːm",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ตลาด",
+    "syllables": [
+      "ตลาด"
+    ],
+    "ipa": "ta.làːt",
+    "engine": "syllable_tokenize",
+    "syllables_match": false
+  },
+  {
+    "text": "ตลาดนัด",
+    "syllables": [
+      "ตลาด",
+      "นัด"
+    ],
+    "ipa": "ta.làːt.nát",
+    "engine": "syllable_tokenize",
+    "syllables_match": false
+  },
+  {
+    "text": "ตา",
+    "syllables": [
+      "ตา"
+    ],
+    "ipa": "taː",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ตำรวจ",
+    "syllables": [
+      "ตำ",
+      "รวจ"
+    ],
+    "ipa": "tam.ruːat",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ทหาร",
+    "syllables": [
+      "ทหาร"
+    ],
+    "ipa": "tʰa.hǎːn",
+    "engine": "syllable_tokenize",
+    "syllables_match": false
+  },
+  {
+    "text": "ทำงาน",
+    "syllables": [
+      "ทำ",
+      "งาน"
+    ],
+    "ipa": "tʰam.ŋaːn",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "นัก",
+    "syllables": [
+      "นัก"
+    ],
+    "ipa": "nák",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "นักศึกษา",
+    "syllables": [
+      "นัก",
+      "ศึก",
+      "ษา"
+    ],
+    "ipa": "nák.sɯ̀k.saː",
+    "engine": "syllable_tokenize",
+    "syllables_match": false
+  },
+  {
+    "text": "นักเรียน",
+    "syllables": [
+      "นัก",
+      "เรียน"
+    ],
+    "ipa": "nák.riːan",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "น้อง",
+    "syllables": [
+      "น้อง"
+    ],
+    "ipa": "nɔ́ːŋ",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "บอก",
+    "syllables": [
+      "บอก"
+    ],
+    "ipa": "bɔ̀ːk",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "บ้าน",
+    "syllables": [
+      "บ้าน"
+    ],
+    "ipa": "bâːn",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ประเทศ",
+    "syllables": [
+      "ประ",
+      "เทศ"
+    ],
+    "ipa": "pra.tʰêːt",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ประเทศไทย",
+    "syllables": [
+      "ประ",
+      "เทศ",
+      "ไทย"
+    ],
+    "ipa": "pra.tʰêːt.tʰaj",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ปาก",
+    "syllables": [
+      "ปาก"
+    ],
+    "ipa": "pàːk",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "พรุ่งนี้",
+    "syllables": [
+      "พรุ่ง",
+      "นี้"
+    ],
+    "ipa": "pʰrúŋ.níː",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "พี่",
+    "syllables": [
+      "พี่"
+    ],
+    "ipa": "pʰîː",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "พุธ",
+    "syllables": [
+      "พุธ"
+    ],
+    "ipa": "pʰút",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "พูด",
+    "syllables": [
+      "พูด"
+    ],
+    "ipa": "pʰûːt",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "พ่อ",
+    "syllables": [
+      "พ่อ"
+    ],
+    "ipa": "pʰɔ̂ː",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ฟัง",
+    "syllables": [
+      "ฟัง"
+    ],
+    "ipa": "faŋ",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ฟังเพลง",
+    "syllables": [
+      "ฟัง",
+      "เพลง"
+    ],
+    "ipa": "faŋ.pʰleːŋ",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ฟุตบอล",
+    "syllables": [
+      "ฟุต",
+      "บอล"
+    ],
+    "ipa": "fút.bɔːn",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ภาษา",
+    "syllables": [
+      "ภา",
+      "ษา"
+    ],
+    "ipa": "pʰaː.sǎː",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "มหาวิทยาลัย",
+    "syllables": [
+      "มหา",
+      "วิท",
+      "ยา",
+      "ลัย"
+    ],
+    "ipa": "ma.hǎː.wít.tʰa.jaː.laj",
+    "engine": "syllable_tokenize",
+    "syllables_match": false
+  },
+  {
+    "text": "มา",
+    "syllables": [
+      "มา"
+    ],
+    "ipa": "maː",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "มือ",
+    "syllables": [
+      "มือ"
+    ],
+    "ipa": "mɯː",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ยาก",
+    "syllables": [
+      "ยาก"
+    ],
+    "ipa": "yâːk",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "รัก",
+    "syllables": [
+      "รัก"
+    ],
+    "ipa": "rák",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ลงรถ",
+    "syllables": [
+      "ลง",
+      "รถ"
+    ],
+    "ipa": "loŋ.rót",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ลูก",
+    "syllables": [
+      "ลูก"
+    ],
+    "ipa": "lûːk",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "วัน",
+    "syllables": [
+      "วัน"
+    ],
+    "ipa": "wan",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "วันนี้",
+    "syllables": [
+      "วัน",
+      "นี้"
+    ],
+    "ipa": "wan.níː",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ศุกร์",
+    "syllables": [
+      "ศุกร์"
+    ],
+    "ipa": "sùk",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "หนัง",
+    "syllables": [
+      "หนัง"
+    ],
+    "ipa": "nǎŋ",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "หนังสือ",
+    "syllables": [
+      "หนัง",
+      "สือ"
+    ],
+    "ipa": "nǎŋ.sɯ̌ː",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "หมา",
+    "syllables": [
+      "หมา"
+    ],
+    "ipa": "mǎː",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "หัวใจ",
+    "syllables": [
+      "หัว",
+      "ใจ"
+    ],
+    "ipa": "hǔa.t͡ɕai",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "หู",
+    "syllables": [
+      "หู"
+    ],
+    "ipa": "hǔː",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ห้องครัว",
+    "syllables": [
+      "ห้อง",
+      "ครัว"
+    ],
+    "ipa": "hɔ̂ːŋ.kʰrua",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ห้องนอน",
+    "syllables": [
+      "ห้อง",
+      "นอน"
+    ],
+    "ipa": "hɔ̂ːŋ.nɔːn",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ห้องน้ำ",
+    "syllables": [
+      "ห้อง",
+      "น้ำ"
+    ],
+    "ipa": "hɔ̂ːŋ.náːm",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "ห้องเรียน",
+    "syllables": [
+      "ห้อง",
+      "เรียน"
+    ],
+    "ipa": "hɔ̂ːŋ.riːan",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "อยาก",
+    "syllables": [
+      "อยาก"
+    ],
+    "ipa": "jàːk",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "อาทิตย์",
+    "syllables": [
+      "อา",
+      "ทิตย์"
+    ],
+    "ipa": "ʔaː.tʰít",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "อาหาร",
+    "syllables": [
+      "อา",
+      "หาร"
+    ],
+    "ipa": "ʔaː.hǎːn",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "อินเทอร์เน็ต",
+    "syllables": [
+      "อิน",
+      "เทอร์",
+      "เน็ต"
+    ],
+    "ipa": "ʔin.tʰɤː.net",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "อ่านหนังสือ",
+    "syllables": [
+      "อ่าน",
+      "หนัง",
+      "สือ"
+    ],
+    "ipa": "ʔàːn.nǎŋ.sɯ̌ː",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เกาะ",
+    "syllables": [
+      "เกาะ"
+    ],
+    "ipa": "kɔ̀ʔ",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เกิด",
+    "syllables": [
+      "เกิด"
+    ],
+    "ipa": "kɤ̀ːt",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เขียน",
+    "syllables": [
+      "เขียน"
+    ],
+    "ipa": "kʰǐan",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เขียนหนังสือ",
+    "syllables": [
+      "เขียน",
+      "หนัง",
+      "สือ"
+    ],
+    "ipa": "kʰǐan.nǎŋ.sɯ̌ː",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เข้าใจ",
+    "syllables": [
+      "เข้า",
+      "ใจ"
+    ],
+    "ipa": "kʰâw.t͡ɕai",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เคย",
+    "syllables": [
+      "เคย"
+    ],
+    "ipa": "kʰɤːj",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เช้า",
+    "syllables": [
+      "เช้า"
+    ],
+    "ipa": "cháːw",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เดิน",
+    "syllables": [
+      "เดิน"
+    ],
+    "ipa": "dɤːn",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เดินทาง",
+    "syllables": [
+      "เดิน",
+      "ทาง"
+    ],
+    "ipa": "dɤːn.tʰaːŋ",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เด็ก",
+    "syllables": [
+      "เด็ก"
+    ],
+    "ipa": "dèk",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เถอะ",
+    "syllables": [
+      "เถอะ"
+    ],
+    "ipa": "tʰɤ̀ʔ",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เพราะ",
+    "syllables": [
+      "เพราะ"
+    ],
+    "ipa": "pʰrɔ́ʔ",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เพลง",
+    "syllables": [
+      "เพลง"
+    ],
+    "ipa": "pʰleːŋ",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เพื่อ",
+    "syllables": [
+      "เพื่อ"
+    ],
+    "ipa": "pʰɯ̂ːa",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เพื่อน",
+    "syllables": [
+      "เพื่อน"
+    ],
+    "ipa": "pʰɯ̂ːan",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เพื่อนบ้าน",
+    "syllables": [
+      "เพื่อน",
+      "บ้าน"
+    ],
+    "ipa": "pʰɯ̂ːan.baːn",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เมือง",
+    "syllables": [
+      "เมือง"
+    ],
+    "ipa": "mɯːaŋ",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เมื่อวาน",
+    "syllables": [
+      "เมื่อ",
+      "วาน"
+    ],
+    "ipa": "mɯ̂a.waːn",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เย็น",
+    "syllables": [
+      "เย็น"
+    ],
+    "ipa": "jen",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เรียน",
+    "syllables": [
+      "เรียน"
+    ],
+    "ipa": "riːan",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เรียนรู้",
+    "syllables": [
+      "เรียน",
+      "รู้"
+    ],
+    "ipa": "riːan.rúː",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เรียนหนังสือ",
+    "syllables": [
+      "เรียน",
+      "หนัง",
+      "สือ"
+    ],
+    "ipa": "riːan.nǎŋ.sɯ̌ː",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เลือก",
+    "syllables": [
+      "เลือก"
+    ],
+    "ipa": "lɯ̂ːak",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เสาร์",
+    "syllables": [
+      "เสาร์"
+    ],
+    "ipa": "sǎw",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เสีย",
+    "syllables": [
+      "เสีย"
+    ],
+    "ipa": "sǐa",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "เสือ",
+    "syllables": [
+      "เสือ"
+    ],
+    "ipa": "sɯ̌ːa",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "แมว",
+    "syllables": [
+      "แมว"
+    ],
+    "ipa": "mɛːw",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "แม่",
+    "syllables": [
+      "แม่"
+    ],
+    "ipa": "mɛ̂ː",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "โทรศัพท์",
+    "syllables": [
+      "โทร",
+      "ศัพท์"
+    ],
+    "ipa": "tʰoː.ra.sàp",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  },
+  {
+    "text": "โรงพยาบาล",
+    "syllables": [
+      "โรง",
+      "พยา",
+      "บาล"
+    ],
+    "ipa": "roːŋ.pʰa.jaː.baːn",
+    "engine": "syllable_tokenize",
+    "syllables_match": false
+  },
+  {
+    "text": "โรงเรียน",
+    "syllables": [
+      "โรง",
+      "เรียน"
+    ],
+    "ipa": "roːŋ.riːan",
+    "engine": "syllable_tokenize",
+    "syllables_match": true
+  }
+]

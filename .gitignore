@@ -1,0 +1,62 @@
+# macOS systemfiler
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS thumbnailer
+._*
+
+# Spotlight
+.Spotlight-V100
+
+# Trash
+.Trashes
+
+# Xcode-filer
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xcuserstate
+DerivedData/
+.idea/
+*.xcworkspace
+!default.xcworkspace
+build/
+*.moved-aside
+
+# SwiftPM
+.build/
+Packages/
+Package.pins
+Package.resolved
+
+# Playground-filer
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Index cache
+.swiftpm/
+
+# Kommentarer og backup
+*~.nib
+*.swp
+*.bak
+*.tmp
+
+# CocoaPods (hvis du bruker det)
+Pods/
+
+# Carthage (hvis aktuelt)
+Carthage/
+
+# Fastlane
+fastlane/report.xml
+fastlane/screenshots
+fastlane/test_output
+
+# GitHub Desktop backup
+*.orig
+**/.DS_Store

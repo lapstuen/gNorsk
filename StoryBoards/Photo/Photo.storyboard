@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ict-V8-B1G">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Photo View Controller-->
+        <scene sceneID="cjm-Ka-ezz">
+            <objects>
+                <viewController storyboardIdentifier="PhotoVC" id="Ict-V8-B1G" userLabel="Photo View Controller" customClass="PhotoVC" customModule="gNorsk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PgV-OV-qoL"/>
+                        <viewControllerLayoutGuide type="bottom" id="wsY-Af-T7L"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="di1-GD-ngk">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DropImageHere" translatesAutoresizingMaskIntoConstraints="NO" id="xbI-nY-YG9">
+                                <rect key="frame" x="0.0" y="118" width="393" height="666"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="393" id="wDS-zf-rle"/>
+                                </constraints>
+                            </imageView>
+                            <textField hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" background="dropHere" translatesAutoresizingMaskIntoConstraints="NO" id="HMY-8A-3rB">
+                                <rect key="frame" x="10" y="128" width="367" height="656"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="endEditing:" destination="Ict-V8-B1G" eventType="editingDidEnd" id="ffo-Tw-kF1"/>
+                                    <action selector="textfieldChanged:" destination="Ict-V8-B1G" eventType="valueChanged" id="QWb-SJ-c5e"/>
+                                </connections>
+                            </textField>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="oBI-oc-afe">
+                                <rect key="frame" x="16" y="714" width="367" height="50"/>
+                                <subviews>
+                                    <button contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4DF-6c-w9L" customClass="UIButtonRound" customModule="gNorsk" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <color key="backgroundColor" name="xPoiColorButton"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <size key="titleShadowOffset" width="10" height="10"/>
+                                        <state key="normal" image="camera" catalog="system">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="takePhoto:" destination="Ict-V8-B1G" eventType="touchUpInside" id="lcR-mF-wd5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="faF-aX-CbQ" customClass="UIButtonRound" customModule="gNorsk" customModuleProvider="target">
+                                        <rect key="frame" x="63.333333333333329" y="0.0" width="50" height="50"/>
+                                        <color key="backgroundColor" name="xPoiColorButton"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="3OT-dT-4lV"/>
+                                            <constraint firstAttribute="width" secondItem="faF-aX-CbQ" secondAttribute="height" multiplier="1:1" id="LDQ-cR-Sya"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="photo.fill.on.rectangle.fill" catalog="system">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="imageGetFromLibrary:" destination="Ict-V8-B1G" eventType="touchUpInside" id="ixX-pq-nkF"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MUn-5m-NJX" customClass="UIButtonRound" customModule="gNorsk" customModuleProvider="target">
+                                        <rect key="frame" x="126.66666666666666" y="0.0" width="50" height="50"/>
+                                        <color key="backgroundColor" name="xPoiColorButton"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="MUn-5m-NJX" secondAttribute="height" multiplier="1:1" id="Soy-3c-ATE"/>
+                                            <constraint firstAttribute="width" secondItem="MUn-5m-NJX" secondAttribute="height" multiplier="1:1" id="ZuP-7x-ON3"/>
+                                            <constraint firstAttribute="width" constant="50" id="eIl-rv-QcC"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="pencil.circle.fill" catalog="system">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" red="0.02641393002" green="0.33333334329999997" blue="0.02084958097" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="imageGetFromLibraryEdit:" destination="Ict-V8-B1G" eventType="touchUpInside" id="Wsk-8O-baU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cR-f7-6a6" customClass="UIButtonRound" customModule="gNorsk" customModuleProvider="target">
+                                        <rect key="frame" x="190.33333333333334" y="0.0" width="50" height="50"/>
+                                        <color key="backgroundColor" name="xPoiColorButton"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="8cR-f7-6a6" secondAttribute="height" multiplier="1:1" id="PQS-dx-4mU"/>
+                                            <constraint firstAttribute="width" constant="50" id="vJb-7T-sHh"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="photo.fill.on.rectangle.fill" catalog="system">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" red="0.02641393002" green="0.33333334329999997" blue="0.02084958097" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="getImagesFromLibery:" destination="Ict-V8-B1G" eventType="touchUpInside" id="Tdg-iO-4qn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HI4-g9-vzf" customClass="UIButtonRound" customModule="gNorsk" customModuleProvider="target">
+                                        <rect key="frame" x="253.66666666666669" y="0.0" width="50" height="50"/>
+                                        <color key="backgroundColor" name="xPoiColorButton"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="HI4-g9-vzf" secondAttribute="height" multiplier="1:1" id="FQ7-Wt-YCi"/>
+                                            <constraint firstAttribute="height" constant="50" id="dCt-WM-SFq"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="folder.fill" catalog="system">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="20" weight="bold"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="getImageFromFiles:" destination="Ict-V8-B1G" eventType="touchUpInside" id="bIx-g4-7SY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z44-NK-x47">
+                                        <rect key="frame" x="317" y="0.0" width="50" height="50"/>
+                                        <color key="backgroundColor" name="xPoiColorButton"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="Dcu-Fy-vrt"/>
+                                            <constraint firstAttribute="height" constant="50" id="mJI-jk-e9L"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="magnifyingglass.circle" catalog="system">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="searchForImages:" destination="Ict-V8-B1G" eventType="touchUpInside" id="rp7-bA-mhg"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstItem="4DF-6c-w9L" firstAttribute="height" secondItem="faF-aX-CbQ" secondAttribute="height" id="PGF-8n-N0U"/>
+                                    <constraint firstItem="4DF-6c-w9L" firstAttribute="width" secondItem="faF-aX-CbQ" secondAttribute="width" id="ZnE-lQ-pvu"/>
+                                    <constraint firstAttribute="height" constant="50" id="gZQ-IH-EsL"/>
+                                </constraints>
+                            </stackView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" background="dropHere" translatesAutoresizingMaskIntoConstraints="NO" id="eOx-EX-jm6">
+                                <rect key="frame" x="0.0" y="326" width="393" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="endEditing:" destination="Ict-V8-B1G" eventType="editingDidEnd" id="RH5-ml-Rsx"/>
+                                    <action selector="textfieldChanged:" destination="Ict-V8-B1G" eventType="valueChanged" id="Hdm-LK-cL9"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" alpha="0.34999999403953552" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9TG-8b-MZc">
+                                <rect key="frame" x="327" y="137" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ZHz-EC-8em"/>
+                                    <constraint firstAttribute="width" constant="50" id="rLa-Vb-geP"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow.down.app.fill" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="50" weight="bold"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="loadImage:" destination="Ict-V8-B1G" eventType="touchUpInside" id="WER-Gi-1Tm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OBY-t9-AGt" userLabel="SaveButton" customClass="UIButtonRound" customModule="gNorsk" customModuleProvider="target">
+                                <rect key="frame" x="16" y="137" width="50" height="50"/>
+                                <color key="backgroundColor" name="xPoiColorButton"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="1dZ-s2-egO"/>
+                                    <constraint firstAttribute="width" secondItem="OBY-t9-AGt" secondAttribute="height" multiplier="1:1" id="Cto-Qs-nOv"/>
+                                    <constraint firstAttribute="width" secondItem="OBY-t9-AGt" secondAttribute="height" multiplier="1:1" id="dUH-UA-En4"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="xmark.circle" catalog="system">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="20" weight="bold"/>
+                                </state>
+                                <connections>
+                                    <action selector="save:" destination="Ict-V8-B1G" eventType="touchUpInside" id="YcW-ux-BkW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zzp-tE-jMc"/>
+                        <color key="backgroundColor" name="xBackground"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="xbI-nY-YG9" firstAttribute="top" secondItem="zzp-tE-jMc" secondAttribute="top" id="0eZ-Oh-oKv"/>
+                            <constraint firstAttribute="trailing" secondItem="oBI-oc-afe" secondAttribute="trailing" constant="10" id="18N-5p-QzE"/>
+                            <constraint firstItem="HMY-8A-3rB" firstAttribute="leading" secondItem="zzp-tE-jMc" secondAttribute="leading" constant="10" id="7H3-YY-YCZ"/>
+                            <constraint firstItem="zzp-tE-jMc" firstAttribute="bottom" secondItem="xbI-nY-YG9" secondAttribute="bottom" id="AJ6-ZB-lot"/>
+                            <constraint firstItem="HMY-8A-3rB" firstAttribute="top" secondItem="zzp-tE-jMc" secondAttribute="top" constant="10" id="Qfs-Ui-5Ko"/>
+                            <constraint firstItem="xbI-nY-YG9" firstAttribute="leading" secondItem="OBY-t9-AGt" secondAttribute="trailing" constant="-66" id="fbn-Y7-MhV"/>
+                            <constraint firstItem="OBY-t9-AGt" firstAttribute="centerY" secondItem="9TG-8b-MZc" secondAttribute="centerY" id="g03-R4-HKf"/>
+                            <constraint firstItem="oBI-oc-afe" firstAttribute="leading" secondItem="di1-GD-ngk" secondAttribute="leading" constant="16" id="gPh-zZ-WAp"/>
+                            <constraint firstAttribute="trailing" secondItem="xbI-nY-YG9" secondAttribute="trailing" id="gQI-HW-J43"/>
+                            <constraint firstItem="zzp-tE-jMc" firstAttribute="bottom" secondItem="HMY-8A-3rB" secondAttribute="bottom" id="hly-7x-vXd"/>
+                            <constraint firstItem="9TG-8b-MZc" firstAttribute="top" secondItem="zzp-tE-jMc" secondAttribute="top" constant="19" id="iOy-i6-64H"/>
+                            <constraint firstItem="xbI-nY-YG9" firstAttribute="leading" secondItem="di1-GD-ngk" secondAttribute="leading" id="kAh-tk-ngl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9TG-8b-MZc" secondAttribute="trailing" id="nXK-xH-UJS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HMY-8A-3rB" secondAttribute="trailing" id="uRx-Wz-PFZ"/>
+                            <constraint firstItem="zzp-tE-jMc" firstAttribute="bottom" secondItem="oBI-oc-afe" secondAttribute="bottom" constant="20" id="wp7-IS-gB5"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="eOx-EX-jm6"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="kmh-ju-LU0"/>
+                    <navigationItem key="navigationItem" id="bIc-TA-Sir"/>
+                    <connections>
+                        <outlet property="Urltext" destination="eOx-EX-jm6" id="Wpq-xf-0Pg"/>
+                        <outlet property="imageTake" destination="xbI-nY-YG9" id="twz-2t-WxE"/>
+                        <segue destination="VrR-YH-ObS" kind="unwind" identifier="unwindToDetailPoiVC" unwindAction="unwindToDetailPoiVC:" id="fWX-IV-mEo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zF9-OS-NOQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="VrR-YH-ObS" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="-18578.400000000001" y="-701.23152709359613"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DropImageHere" width="204" height="192"/>
+        <image name="arrow.down.app.fill" catalog="system" width="128" height="114"/>
+        <image name="camera" catalog="system" width="128" height="93"/>
+        <image name="dropHere" width="500" height="224"/>
+        <image name="folder.fill" catalog="system" width="128" height="96"/>
+        <image name="magnifyingglass.circle" catalog="system" width="128" height="123"/>
+        <image name="pencil.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="photo.fill.on.rectangle.fill" catalog="system" width="128" height="102"/>
+        <image name="xmark.circle" catalog="system" width="128" height="123"/>
+        <namedColor name="xBackground">
+            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="xPoiColorButton">
+            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529410000001" green="0.69019607839999997" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
