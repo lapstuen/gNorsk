@@ -25,3 +25,11 @@ Ikke kartlagt. Fylles ut neste gang vi jobber her.
 
 ## Prøvd uten effekt / avklart
 (tom)
+
+## Godkjenning Apple
+**Vurdert 2026-10-17 (ikke sendt).** Felles krav: se `~/swift/CLAUDE.md` → «Apple-godkjenning (felles)».
+- **Ikke klar:** kopi av gThai med tom database og norsk-variant under utvikling. En app uten innhold avvises (4.2 minimum functionality). Vent til det finnes nok innhold.
+- Når den er klar gjelder **alle punktene i gThai** (hardkodet Google-nøkkel i kopi av `APIConfig.swift`, for mange rettigheter, tredjepartskilder, YouTube-SDK). Rydd i gThai først og kopier resultatet.
+- Skjermbilder/beskrivelse i `1955-no-nettside/gnorsk/`.
+- **Anbefalt vei når klar: Unlisted.**
+- **Status:** ikke sendt. **Unlisted-lenke:** –. **Apple-avslag:** (ingen)
